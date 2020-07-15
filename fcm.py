@@ -7,7 +7,7 @@ logger.debug('Sending notification to app.')
     try:
         url = 'https://fcm.googleapis.com/fcm/send'
         headers = {
-            'Authorization': 'key=AAAAxZn3IeU:APA91bG8m9_tw3nPZ7gBWNlFNaWALFPf0YNDDF6_fQuKNHL50Y_JLITl6rpYL2Kw5HWAyln7FG_B_XYOHVUBzdIh0fsHVK3VRR_t0A9DBboixhMR0cy5d6oi9ij8bumRFfWctPStOI23tdu2ojpnFkOQ2G6mBlGrig',
+            'Authorization': 'key=',
             'Content-Type': 'application/json',
             'Accept': 'application/json',
         }
